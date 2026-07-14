@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size:90%;
+}
+h1{
+    font-size:180%;
+
+}
+
+h2{
+    font-size:120%;
+    border-bottom:1px dashed #003366;
+    border-left:10px solid #003366;
+    padding-left:7px;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    font-family: "HG行書体", "HG行書体", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+article{
+    position: relative;
+    clear: both;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffffff;
+}
+
+.ot{
+    position:absolute;
+    top:20px;
+    left:30px;
+    color:#ffffff;
+    text-shadow: 0px 5px 10px #000000;
+}
+
+header {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.8;
+    font-size: 90%;
+    line-height: 1.8;
+}
+
+ul time {
+    border-radius: 10px;
+    background-color: #d7b186;
+    padding: 2px 8px;
+}
+
+nav ul {
+    font-weight: bold;
+    text-align: right;
+    padding-top: 26px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 12px;
+    border-right: 1px solid #000000;
+}
+
+header img{
+    float:left;
+}
+
+.header-in {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub-h1{
+    background: linear-gradient(to left,#ffffff,#2f4f4f);
+    padding-top: 5px;
+    padding-left: 10px;
+    border-left: #003366;
+}
+
+.sub-h2{
+    padding-top: 5px;
+    padding-left: 10px;
+    border-left: 15px solid #003366;
+}
+
+.point-list{
+    list-style-image:url(../image/list.gift);
+    font-weight: bold;
+    margin-left: 30px;
+}
+.point-img{
+    box-shadow:0px 0px 10px 3px #aaaaaa;
+    border-radius:10px;
+    float:right;
+    margin-left:20px;
+    margin-bottom:10px;
+}
+.sentou{
+    clear:both;
+    text-align:right;
+}
+
+ol li {
+    /* border: 1px solid blue; */
+    display: inline;
+    margin-right: 5px;
+    font-size: 80%;
+}
+
+ol {
+    /* border: 1px solid pink; */
+    padding-left: 0;
+}
+
+.page {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color:#000000;
+}
+nav ul a:hover{
+    color: #F6C453;
+}
+
+a:link{
+    color: #2a522a;
+}
+
+a:visited{
+    color: #8a4949;
+}
+
+a:hover{
+    color: #000000;
+}
+
+a:active{
+    color: #846797;
+}
+
+/* 959px以下の場合 */
+@media (max-width: 959px) {
+    header img {
+        float: none;
+	}
+    
+    nav ul {
+        text-align: left;
+        padding: 0;
+        margin-left: 10px;
+	}
+    
+    article {
+        width: auto;
+	}
+    
+    article img {
+        max-width: 100%;
+        height: auto;
+	}
+    
+    .header-in {
+        width: auto;
+	}
+    .store-img{
+        float:none;
+    }
+}
+
+/* 600px以下の場合 */
+@media (max-width: 600px) {
+    nav li {
+        font-size: 80%;
+        padding-left: 2px;
+        padding-right: 2px;
+	}
+    
+    footer {
+        font-size: 75%;
+	}
+    
+    .ot {
+        top: 5px;
+        left: 10px;
+	}
+    
+    .point-img {
+        float: none;
+	}
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "HG行書体", "HG行書体",sans-serif;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #b2b48c;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    letter-spacing: 3px;
+}
+
+.title {
+    color: #ffffff;
+    background-color: #003366;
+    font-family: "HG行書体", "HG行書体", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.rcp {
+    margin: 5px;
+    background-color: none;
+    font-family: "HG行書体", "HG行書体", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sake {
+    margin:5px;
+    background-color: none;;
+    font-family: "HG行書体", "HG行書体", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.happy {
+    margin:5px;
+    background-color: none;;
+    font-family: "HG行書体", "HG行書体", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.update {
+    background-color: #F6C453;
+    font-family: "HG行書体", "HG行書体", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+article{
+    position: relative;
+}
+
+h4{
+    font-size: 22px;
+    color: #003366;
+    background-color: #f8f8f8;
+    border-left: 8px solid #F6C453;
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+.alcohol-info{
+    font-family: "HG正楷書体-PRO", "HG正楷書体", "HGP正楷書体", serif;
+}
+
+.alcohol-title{
+    font-size: 28px;
+    color: #000000;
+    border-left: 10px solid #003366;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.alcohol-subtitle{
+    font-size: 22px;
+    color: #8B4513;
+    background-color: #FFF8E7;
+    border-left: 8px solid #F6C453;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.alcohol-text{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.gyoza-alcohol{
+    font-family: "HG正楷書体-PRO", "HG正楷書体", "HGP正楷書体", serif;
+}
+
+.gyoza-title{
+    font-size: 28px;
+    color: #000000;
+    border-left: 10px solid #003366;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.gyoza-subtitle{
+    font-size: 22px;
+    color: #8B4513;
+    background-color: #FFF8E7;
+    border-left: 8px solid #F6C453;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.gyoza-text{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.harumaki-alcohol{
+    font-family: "HG正楷書体-PRO", "HG正楷書体", "HGP正楷書体", serif;
+}
+
+.harumaki-title{
+    font-size: 28px;
+    color: #000000;
+    border-left: 10px solid #003366;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.harumaki-subtitle{
+    font-size: 22px;
+    color: #8B4513;
+    background-color: #FFF8E7;
+    border-left: 8px solid #F6C453;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.harumaki-text{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.enjoy h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.enjoy p{
+    margin-bottom: 150px;
+}
+
+[EOF]
